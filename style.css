@@ -1,0 +1,27 @@
+body {
+    padding: 20px;
+}
+
+.col-sm-2 {
+    vertical-align: middle;
+    float: none;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h4 {
+    color: red;
+}

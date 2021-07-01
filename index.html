@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9 JS - uzduotis - ver 3</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive stiliaus failai visada zemiau stiliaus -->
+    <link rel="stylesheet" href="desktopFirst.css">
+</head>
+
+<body>
+    <div class="container">
+        <button type="button" class="btn btn-primary prideti">Prideti duomenis</button>
+        <button type="button" class="btn btn-success max">Rasti max</button>
+        <button type="button" class="btn btn-danger trinti">Trinti</button>
+    </div>
+    <br>
+    <br>
+    <h4 class="klaida"></h4>
+    <br>
+    <div class="container2">
+        <div class="col-sm-8">
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">Ilgis</th>
+                        <th scope="col">Plotis</th>
+                        <th scope="col">Aukštis</th>
+                    </tr>
+                </thead>
+                <tbody class="lenta">
+                </tbody>
+            </table>
+        </div>
+        <div class="col-sm-2">
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">Tūriai</th>
+                    </tr>
+                </thead>
+                <tbody class="turiai">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="data.js"></script>
+<script src="main.js"></script>
+
+</html>
